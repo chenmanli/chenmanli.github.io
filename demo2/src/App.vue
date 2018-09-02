@@ -1,7 +1,7 @@
 <template>
   <div id="app">
   <h1>在线翻译</h1>
-  <h5>简单/医用/边界</h5>
+  <h5>简单/易用/便捷</h5>
    <translateform v-on:formsubmit="translatetext"></translateform>
     <translateoutput v-text="translatedtext"></translateoutput>
   </div>
